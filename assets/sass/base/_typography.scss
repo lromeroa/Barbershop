@@ -1,0 +1,20 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: $playfair-display;
+}
+
+h1 {
+  font-size: $xx-large;
+}
+
+p {
+  font-family: $roboto;
+  font-size: $medium;
+  color: $nickel;
+  line-height: 30px;
+
+}

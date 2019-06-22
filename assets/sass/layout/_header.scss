@@ -1,0 +1,41 @@
+.hero-section {
+  height: 100vh;
+  background-image: url('../img/post-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__title {
+   color: $white;
+   font-size: $xx-large;
+   font-weight: $black-italic;
+   text-align: center;
+   font-style: italic;
+   padding-top: 16rem !important;
+  }
+}
+
+.icono {
+  font-size: 3rem;
+  color: $white;
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 12rem;
+}
+
+.icono svg {
+  fill: #ffffff;
+}
+
+
+@media screen and (max-width: 576px){
+  .hero-section__title {
+    height: 100vh;
+  }
+  h1{
+    font-size: 50px;
+  }
+  .icono {
+    padding-top: 3rem;
+  }
+
+}

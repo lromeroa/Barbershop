@@ -1,0 +1,29 @@
+nav {
+  position: fixed;
+  width: 100vw;
+  background-color: $eerie-black;
+
+  &__logo {
+   width: 30px;
+   height: auto;
+  }
+
+}
+
+nav a {
+  display: inline-block;
+  vertical-align: middle;
+  list-style-type: none;
+  color: $white;
+  text-decoration: none;
+}
+
+.nav-link{
+  color: $fuzzy-wuzzy;
+  padding: 0;
+  display: inline;
+
+  &__color {
+    color: $fuzzy-wuzzy;
+  }
+}
